@@ -15,7 +15,7 @@ Um projeto desenvolvido em **Java** para simular o ecossistema de um jogo de RPG
 * **Interfaces (Contratos):** Implementação da interface `AcaoCombate`, obrigando o sistema a garantir que todo personagem instanciado cumpra a assinatura dos métodos fundamentais de ataque e defesa.
 * **Agregação com Listas (Collections):** A classe `Guilda` utiliza uma estrutura `List<Personagem>` para agrupar heróis. Foi implementado o padrão de "Early Return" e validações com `.contains()` para impedir o recrutamento de membros duplicados na mesma equipe.
 * **Dicionários com Mapas (Collections):** Criação de um sistema de inventário embutido nos personagens através da estrutura `Map<String, Integer>`. O sistema utiliza lógicas modernas de chave-valor para adicionar itens inéditos ou acumular a quantidade de itens repetidos na mesma gaveta.
-* * **Expressões Lambda e Sintaxe Moderna:** Refatoração da lógica de atualização do inventário utilizando o método `.compute()` da interface `Map`. Aplicação de funções anônimas (Lambdas `->`) para executar operações de leitura e escrita de forma direta e in-line, resultando em um código mais limpo (Clean Code) e performático.
+* **Expressões Lambda e Sintaxe Moderna:** Refatoração da lógica de atualização do inventário utilizando o método `.compute()` da interface `Map`. Aplicação de funções anônimas (Lambdas `->`) para executar operações de leitura e escrita de forma direta e in-line, resultando em um código mais limpo (Clean Code) e performático.
 
 ## 📁 Estrutura Principal de Classes
 
